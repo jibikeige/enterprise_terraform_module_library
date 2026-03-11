@@ -1,0 +1,43 @@
+# Terraform files
+**/.terraform/*
+**/.terraform
+
+.terraform.lock.hcl
+**/.terraform.lock.hcl
+
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Terraform variable files (often contain secrets)
+*.tfvars.json
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform lock file (optional but usually kept)
+# Uncomment if you want to ignore it
+# .terraform.lock.hcl
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+*.log
+
+# MacOS
+.DS_Store
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Node (if you use scripts)
+node_modules/
+
+# Screenshots if not needed in git
+screenshots/*
