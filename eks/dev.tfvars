@@ -1,0 +1,10 @@
+name        = "teleios-jibike-dev-eks"
+region = "us-east-2"
+environment = "dev"
+node_name   = "teleios-jibike-dev-node-group"
+vpc_name    = "teleios-jibike-dev-vpc"
+desired_nodes = 1
+min_nodes     = 1
+max_nodes     = 2
+instance_types = ["t3.medium"]
+role_name = "teleios-jibike"
